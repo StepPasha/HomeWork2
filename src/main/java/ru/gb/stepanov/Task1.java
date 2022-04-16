@@ -10,10 +10,10 @@ public class Task1 {
     public static boolean method1020(int a, int b) {
         int sum = a + b;
         if (sum > 10 && sum < 20) {
-            System.out.println(true);
+            System.out.println("true");
             return true;
         } else {
-            System.out.println(false);
+            System.out.println("false");
             return false;
         }
     }
